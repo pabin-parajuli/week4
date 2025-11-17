@@ -15,8 +15,6 @@ class Program
         {
 
             // ERROR: marks / total does integer division, result will be wrong
-            // double percentage = marks / total * 100;
-
             // FIX: Cast to double to get correct floating-point division
             double percentage = (double)marks / total * 100;
 
